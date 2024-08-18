@@ -1,0 +1,27 @@
+@import url('css/cabecalho.css');
+@import url('css/session-one.css');
+@import url('css/session-two.css');
+@import url('css/session-three.css');
+@import url('css/session-four.css');
+@import url('css/footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background: linear-gradient(180deg, rgba(219,190,170,1) 0%, rgba(224,213,205,1) 43%, rgba(219,190,170,1) 100%);
+    --titulo: #88786C;
+    --texto: #F9F9F9;
+    --icon: #88786C;
+
+    --font-principal: 'Lexend Exa', sans-serif;
+}
+
+body{
+    background: var(--background);
+    background-repeat: no-repeat;
+}

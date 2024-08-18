@@ -1,0 +1,116 @@
+.principal-session-four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-session-four div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-session-four__image{
+    width: 60%;
+    margin: 7rem auto;
+}
+
+.principal-session-four h1{
+    color: var(--titulo);
+    font-family: var(--font-principal);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.principal-session-four p{
+    width: 70%;
+    margin: 2rem 0;
+    color: var(--texto);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-principal);
+    
+    text-align: center;
+}
+
+.principal-session-four__icone{
+    width: 3%;
+}
+
+.principal-session-four h2{
+    text-align: center;
+    color: var(--texto);
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-principal);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 820px){
+    .principal-session-four__image{
+        width: 60%;
+        margin: 7rem auto;
+    }
+
+    .principal-session-four h1{
+        font-size: 3rem;
+    }
+
+    .principal-session-four p{
+        font-size: 2rem;
+    }
+
+    .principal-session-four__icone{
+        width: 3%;
+        margin: 2rem 0;
+    }
+
+    .principal-session-four h2{
+        font-size: 1.5rem;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .principal-session-four{
+        width: 100%;
+    }
+    
+    .principal-session-four__image{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .principal-session-four div{
+        width: 100%;
+        margin: 10rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .principal-session-four div img {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .principal-session-four__conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal-session-four__conteudo img{
+        width: 5%;
+    };
+}

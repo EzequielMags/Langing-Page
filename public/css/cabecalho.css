@@ -1,0 +1,9 @@
+header{
+    height: 8vh;
+}
+
+header img{
+    position: absolute;
+    left: 2rem;
+    top: 1.5rem;
+}

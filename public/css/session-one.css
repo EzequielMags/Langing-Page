@@ -1,0 +1,52 @@
+.principal-session-one{
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.principal-session-one h1{
+    font-family: var(--font-principal);
+    font-size: 3rem;
+    color: var(--titulo);
+    text-align: center;
+}
+
+.principal-session-one p{
+    color: var(--titulo);
+    font-size: 1rem;
+    font-family: var(--font-principal);
+    margin: 3rem 0 1rem  0;
+}
+
+@media screen and (min-width: 820px){
+    .principal-session-one h1{
+        font-size: 5rem;
+    }
+
+    .principal-session-one p{
+        font-size: 1.5rem;
+    }
+
+    .principal-session-one img{
+        width: 2%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .principal-session-one{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal-session-one h1{
+        font-size: 8rem;
+    }
+
+    .principal-session-one img{
+        width: 1%;
+    }
+}
